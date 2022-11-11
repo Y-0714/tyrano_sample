@@ -1,46 +1,45 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="三塁ベースを回るか回らないか ランナー"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「三塁ベースを回るか回らないか ランナー」[l][r]
 
-メロスは激怒した。[l][r]
+9回裏。2アウト。スコアは1-0。ランナー二、三塁。一打出れば同点。二塁ランナーがホームに帰れば逆転。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+二塁ランナーは俺だ。走力には自身がある。[l][r]
 
 (中略)[l][r]
+ピッチャーが投げた。バッターが打った。打球はセンター前へ。[l][r]
+二塁ランナーは...[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →三塁ベースを回る [endlink][r]
+[link target=*tag_run] →三塁ベースを回らない [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=safe.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+セーフ！逆転！サヨナラ！[l][r]
+試合に勝った。[r]
 
-【 BAD END 】[l][cm]
+【 GOOD END 】[l][cm]
 
 [jump target=*start]
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[bg storage=rain.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+次のバッターは三振でたおれた。[l][r]
+そして急な雨で試合は終了。同点のまま試合が終わってしまった。[r]
 
-【 GOOD END 】[l][cm]
+【 BAD END 】[l][cm]
 
 [jump target=*start]
